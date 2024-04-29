@@ -60,3 +60,22 @@ if  btn and book_name is not None:
             img_url = fetch_book_image(rbooks[i])
             st.image(img_url)
             st.write(rbooks[i])
+    st.markdown("<hr>", unsafe_allow_html=True)
+
+# Footer with icons for contact information
+    st.markdown(
+    """
+    <div style='text-align: center;'>
+        <strong>medbc © 2024</strong>
+        <a href="mailto:bencheikhmohamed811@gmail.com">📧</a>
+        <a href="https://github.com/Mohamed-Bencheikh">💻</a>
+        <a href="https://medbc.me">🌐</a>
+    </div>
+    <style>
+    a{
+    text-decoration: none;
+    }
+    <style>
+    """,
+    unsafe_allow_html=True,
+)
